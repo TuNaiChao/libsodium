@@ -1,9 +1,8 @@
-libsodium (1.0.18-1+deb13u1) trixie-security; urgency=medium
+libsodium (1.0.18-1deepin1) unstable; urgency=medium
 
-  * Backport security fix for CVE-2025-69277: mishandled checks for whether
-    an elliptic curve point is valid (closes: #1124374).
+  * fix(cve): CVE-2025-69277
 
- -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 01 Jan 2026 10:36:18 +0100
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 16 Jul 2026 23:13:15 +0800
 
 libsodium (1.0.18-1) unstable; urgency=medium
 
